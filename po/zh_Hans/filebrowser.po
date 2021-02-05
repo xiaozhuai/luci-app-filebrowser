@@ -43,8 +43,8 @@ msgstr "数据库路径"
 msgid "Root path"
 msgstr "指向路径"
 
-msgid "Point to a path to access your files in the web interface, default is /"
-msgstr "指向一个路径，可在web界面访问你的文件，默认为 /"
+msgid "Point to a path to access your files in the web interface, default is /root"
+msgstr "指向一个路径，可在web界面访问你的文件，默认为 /root"
 
 msgid "Executable directory"
 msgstr "可执行文件存放目录"
