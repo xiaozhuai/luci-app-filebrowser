@@ -3,7 +3,9 @@
 
 在OpenWRT中配置filebrowser的LUCI应用
 
-适用于OpenWRT 19.*，需要提前安装`luci-compat`包
+此分支适用于OpenWRT 19.*，需要提前安装`luci-compat`包
+
+18.06请使用18.06分支
 
 由于可执行文件很大，至少32MB，因此ipk中不集成filebrowser的可执行文件。
 
