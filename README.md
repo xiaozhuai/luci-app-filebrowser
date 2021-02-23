@@ -3,7 +3,9 @@
 
 在OpenWRT中配置filebrowser的LUCI应用
 
-适用于OpenWRT 19.*，需要提前安装`luci-compat`包
+此分支适用于OpenWRT 18.06
+
+19.*请使用master分支
 
 由于可执行文件很大，至少32MB，因此ipk中不集成filebrowser的可执行文件。
 
@@ -19,7 +21,7 @@
 Release页有编译好的ipk包，可直接安装，或者可以手动编译
 
 ```
-git clone https://github.com/xiaozhuai/luci-app-filebrowser package/luci-app-filebrowser
+git clone -b 18.06 https://github.com/xiaozhuai/luci-app-filebrowser package/luci-app-filebrowser
 make package/luci-app-filebrowser/compile
 ```
 
