@@ -32,7 +32,7 @@ start() {
 	
 	SSL_PARAMS=""
 	[ -n "$SSL_CERT" ] && [ -n "$SSL_KEY" ] && SSL_PARAMS="-t $SSL_CERT -k $SSL_KEY"
-	
+	PASSWORD="$($executable_directory/filebrowser hash "$PASSWORD")"
 	$executable_directory/filebrowser -a $ADDRESS -p $PORT -r $ROOT_PATH -d "$DATABASE" --username $USERNAME --password $PASSWORD $SSL_PARAMS -l $LOG_PATH >/dev/null 2>&1 &
 }
 
